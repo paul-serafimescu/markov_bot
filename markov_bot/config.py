@@ -12,4 +12,4 @@ Path(DUMP_FILE).touch(exist_ok = True)
 SOURCE_FILE = os.path.join(os.getcwd(), 'data.json')
 Path(SOURCE_FILE).touch(exist_ok = True)
 ADMIN = int(os.environ.get('ADMIN'))
-BOT_CHANNEL = 943781988538671165
+BOT_CHANNEL = int(os.environ.get('BOT_CHANNEL'))
